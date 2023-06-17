@@ -1,0 +1,60 @@
+body {
+  font-family: Outfit;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+  width: 375px;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.qr {
+  padding: 17px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.qr > p {
+  font-weight: 700;
+  font-size: 23px;
+}
+.qr p:last-child {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  position: absolute;
+  text-wrap: nowrap;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  font-size: 14px;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
